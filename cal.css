@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: gray;
+    margin-top: 3em;
+    
+}
+
+hr{
+    position: relative;
+    width: calc(100% - 50px);
+    border: none;
+    height: 0.5px;
+    background-color: gray;
+}
+
+.container{
+    height: 90vh;
+    background-color: black;
+    width: 30%;
+    color: white;
+    text-align: center;
+    border: 80vh;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px 5px rgb(199, 199, 156);
+}
+
+h1{
+    height: 8%;
+}
+
+.input{
+    text-align:right;
+    color: white;
+    border: none;
+    font-size: 300%;
+    background-color: black;
+    width: calc(100% - 30px);
+    
+}
+
+button {
+    height: 10vh;
+    color: white;
+    margin: 2%;
+    width: 20%;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: black;
+    
+}
+
+.button:hover{
+    background-color: gray;
+}
+
+.buttonoperator{
+    
+    color: orange;
+    margin: 2%;
+    width: 20%;
+    font-size: 2em;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.buttonoperator:hover{
+    background-color: gray;
+}
+
